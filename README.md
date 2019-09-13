@@ -19,6 +19,6 @@ The Arduino's keypad lib is ported to PIC16F for this implementation. MPLAB-X is
    
    key2dac_LUT[ROWS][COLS] and char keys[ROWS][COLS]
   
-4. LED lits when there is an keypad activity. If not it will gives heart-beat indication at 1sec rate
-5. Supports hold-repeat key @ 250ms rate (4 chars per sec)
-6. The solution may replace your conventional single-wire keypad or prolong its life 
+4. LED lits when there is a key press activity. If not it will gives heart-beat indication at 1sec rate
+5. Supports hold-repeat key press @ 250ms rate (4 chars per sec)
+6. This solution may replace your conventional single-wire keypad or prolong its life 
