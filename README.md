@@ -2,7 +2,7 @@
 Single-wire 4x4 keypad with stable analog output (independent of pill contact resistance)
 
 # Issues with conventional single-wire keypad
-Single-wire keypad using MCU's analog converter to decode key press is not new. However, its reliability would degrade over time when the  membrane's pill contact has worn out or accumulated dirt. This causes the pill contact (mostly carbon-filled due to price) resistance to increase from few ohms to few kilo ohms! This huge resistance would disturb the accuracy of voltage level since the values of biasing resistors matrix are also few kilo-ohms to tens of ohms.
+Single-wire keypad using MCU's analog converter to decode key press is not new. However, its reliability would degrade over time when the  membrane's pill contact has worn out or accumulated dirt. This causes the pill contact (mostly carbon-filled due to price) resistance to increase from few ohms to few kilo ohms! This huge change of membrane resistance could impact the accuracy of voltage level significantly since the values of biasing resistor matrix are few kilo-ohms to tens of Kilo-ohms.
 
 Example of conventional ADC-based keypad is here
 https://www.edn.com/design/analog/4324528/Single-wire-keypad-interface-frees-microcontroller-I-O-pins
