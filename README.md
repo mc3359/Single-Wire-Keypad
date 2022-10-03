@@ -10,7 +10,7 @@ https://www.edn.com/design/analog/4324528/Single-wire-keypad-interface-frees-mic
 # Solution
 Using a simple MCU with built-in R-2R DAC and analog op-amp as voltage buffer, like the PIC16F1704, to generate a stable analog voltage output. Detection of key press is by conventional matrix scanning method. 
 
-The Arduino's keypad lib is ported to PIC16F for this implementation. MPLAB-X is the tool-chain.
+The Arduino's keypad lib is ported to PIC16F for this implementation. MPLAB-X tool-chain is used.
 
 # Description
 1. This is based on Arduino's keypad library and ported to PIC16F1704
@@ -19,6 +19,6 @@ The Arduino's keypad lib is ported to PIC16F for this implementation. MPLAB-X is
    
    key2dac_LUT[ROWS][COLS] and char keys[ROWS][COLS]
   
-4. LED lits when there is a key press activity. If not it will gives heart-beat indication at 1sec rate
+4. LED lits when there is a key press activity. If not it will show heart-beat indication at 1sec rate
 5. Supports hold-repeat key press @ 250ms rate (4 chars per sec)
-6. This solution may replace your conventional single-wire keypad or prolong its life 
+6. This solution may replace your conventional single-wire keypad or prolong the keypad life span
